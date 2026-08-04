@@ -3,120 +3,209 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Avani ONE proof of concept: one partner, one strategy, end-to-end demand generation orchestration.">
-  <title>Avani ONE™ | Connected Demand Generation</title>
+  <meta name="description" content="Avani ONE™ connects fragmented demand generation into one coordinated engine for measurable pipeline growth.">
+  <title>Avani ONE™ | One Connected Demand Engine</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <canvas id="signalCanvas" aria-hidden="true"></canvas>
   <header class="site-header">
     <a class="brand" href="#top" aria-label="Avani ONE home">
       <span class="brand-name">Avani ONE™</span>
       <span class="brand-rule"></span>
     </a>
     <nav aria-label="Primary navigation">
-      <a href="#challenge">Challenge</a>
-      <a href="#engine">Demand Engine</a>
+      <a href="#orchestration">Orchestration</a>
       <a href="#portfolio">Portfolio</a>
+      <a href="#outcome">Outcome</a>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero section-dark">
-      <div class="hero-orbit" aria-hidden="true">
-        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-        <div class="core-mark"><span>A</span></div>
-        <span class="orbit-label label-1">Publishers</span><span class="orbit-label label-2">Intent & Data</span>
-        <span class="orbit-label label-3">Paid Media</span><span class="orbit-label label-4">Nurture</span>
-        <span class="orbit-label label-5">Communities</span><span class="orbit-label label-6">Events</span>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-one" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-two" aria-hidden="true"></div>
+
+      <div class="hero-copy">
+        <p class="eyebrow hero-eyebrow">Introducing Avani ONE™</p>
+        <h1 class="hero-title">
+          <span>One Partner.</span>
+          <span>One Strategy.</span>
+          <span class="accent-text">End-to-End Orchestration.</span>
+        </h1>
+        <p class="hero-lead">A connected demand engine designed for consistent, measurable pipeline growth.</p>
+        <a class="button" href="#orchestration">See the transformation <span aria-hidden="true">↓</span></a>
       </div>
-      <div class="hero-copy reveal">
-        <p class="eyebrow">Introducing Avani ONE™</p>
-        <h1>One Partner.<br><span>One Strategy.</span><br>End-to-End Orchestration.</h1>
-        <p class="lead">A connected demand engine designed for consistent, measurable pipeline growth.</p>
-        <a class="button" href="#challenge">See the story <span>↓</span></a>
+
+      <div class="hero-system" aria-hidden="true">
+        <div class="hero-node hero-node-core">
+          <img src="assets/avani-media-logo.png" alt="">
+          <span>ONE™</span>
+        </div>
+        <div class="hero-ring hero-ring-one"></div>
+        <div class="hero-ring hero-ring-two"></div>
+        <div class="hero-chip hc-1">Publishers</div>
+        <div class="hero-chip hc-2">Intent &amp; Data</div>
+        <div class="hero-chip hc-3">Paid Media</div>
+        <div class="hero-chip hc-4">Nurture</div>
+        <div class="hero-chip hc-5">Communities</div>
+        <div class="hero-chip hc-6">Webinars &amp; Events</div>
       </div>
+
       <div class="scroll-cue" aria-hidden="true"><span></span>Scroll to connect the engine</div>
     </section>
 
-    <section id="challenge" class="challenge section-light">
-      <div class="section-heading reveal">
-        <p class="eyebrow">The Challenge</p>
-        <h2>Modern demand generation is fragmented.</h2>
-        <p>The challenge is not accessibility. <strong>The challenge is orchestration.</strong></p>
+    <section id="orchestration" class="orchestration section-light">
+      <div class="orchestration-intro reveal">
+        <p class="eyebrow">The Challenge and the Solution</p>
+        <h2>From fragmented execution to one coordinated demand engine.</h2>
+        <p>More channels, vendors, data, and complexity create disconnected outcomes. Avani ONE™ becomes the operating layer across partners, programs, data, and delivery.</p>
       </div>
-      <div class="fragment-stage" data-stage="fragmented">
-        <div class="fragment center-fragment"><span>Demand Team</span></div>
-        <div class="fragment f1">More Channels</div><div class="fragment f2">More Vendors</div>
-        <div class="fragment f3">More Data</div><div class="fragment f4">More Complexity</div>
-        <svg class="broken-lines" viewBox="0 0 900 520" aria-hidden="true">
-          <path d="M450 260 L160 105"/><path d="M450 260 L730 110"/><path d="M450 260 L160 420"/><path d="M450 260 L740 415"/>
-        </svg>
-      </div>
-      <div class="hidden-cost reveal">
-        <p class="eyebrow">The Reality</p>
-        <h3>The disconnection carries a hidden cost.</h3>
-        <p>Teams spend too much time managing operational complexity instead of generating pipeline. Disconnected execution creates disconnected outcomes.</p>
-      </div>
-    </section>
 
-    <section id="engine" class="engine section-dark">
-      <div class="sticky-story">
-        <div class="story-copy">
-          <p class="eyebrow">The Solution</p>
-          <h2>One connected demand engine.</h2>
-          <p>Avani ONE simplifies modern demand generation by connecting the right buyers, message, channels, and timing through one aligned strategy.</p>
-          <div class="progress-list" role="list">
-            <button class="progress-item active" data-step="0"><span>01</span>INSIGHT<small>Uncover and align</small></button>
-            <button class="progress-item" data-step="1"><span>02</span>ACQUIRE<small>Generate qualified buyers</small></button>
-            <button class="progress-item" data-step="2"><span>03</span>INTELLIGENCE<small>Prioritize opportunity</small></button>
-            <button class="progress-item" data-step="3"><span>04</span>ENGAGE<small>Deepen buyer intent</small></button>
-            <button class="progress-item" data-step="4"><span>05</span>AMPLIFY<small>Extend reach and visibility</small></button>
-            <button class="progress-item" data-step="5"><span>06</span>OPTIMIZE<small>Connect and improve</small></button>
+      <div class="flow-story">
+        <div class="flow-scene" aria-label="Animated diagram showing fragmented demand generation becoming coordinated through Avani ONE">
+          <div class="flow-background" aria-hidden="true"></div>
+          <svg class="flow-svg" viewBox="0 0 1600 820" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+            <defs>
+              <filter id="lineGlow" x="-50%" y="-50%" width="200%" height="200%">
+                <feGaussianBlur stdDeviation="4" result="blur"></feGaussianBlur>
+                <feMerge><feMergeNode in="blur"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
+              </filter>
+            </defs>
+
+            <g class="paths paths-left">
+              <path id="leftPath1" d="M140 180 C250 180 235 300 390 350"></path>
+              <path id="leftPath2" d="M330 95 C420 125 360 280 445 350"></path>
+              <path id="leftPath3" d="M560 150 C520 240 505 270 495 350"></path>
+              <path id="leftPath4" d="M110 380 C230 380 275 370 390 370"></path>
+              <path id="leftPath5" d="M155 600 C265 585 285 470 410 400"></path>
+              <path id="leftPath6" d="M370 690 C415 600 440 500 450 420"></path>
+              <path id="leftPath7" d="M585 590 C540 545 520 475 500 415"></path>
+              <path id="leftPath8" d="M620 350 C585 350 560 355 515 370"></path>
+              <path id="leftTrunk" class="path-trunk" d="M520 370 C650 370 670 410 785 410"></path>
+            </g>
+
+            <g class="paths paths-right">
+              <path id="rightTrunk" class="path-trunk" d="M815 410 C930 410 950 370 1060 370"></path>
+              <path id="rightPath1" d="M1075 365 C1120 285 1130 175 1225 155"></path>
+              <path id="rightPath2" d="M1100 365 C1220 325 1310 205 1450 175"></path>
+              <path id="rightPath3" d="M1100 375 C1230 375 1335 375 1465 375"></path>
+              <path id="rightPath4" d="M1090 395 C1160 480 1170 575 1260 610"></path>
+              <path id="rightPath5" d="M1110 390 C1230 455 1325 505 1455 575"></path>
+            </g>
+
+            <g class="signals">
+              <circle class="signal signal-left-a" r="6"></circle>
+              <circle class="signal signal-left-b" r="5"></circle>
+              <circle class="signal signal-left-c" r="5"></circle>
+              <circle class="signal signal-right-a" r="6"></circle>
+              <circle class="signal signal-right-b" r="5"></circle>
+              <circle class="signal signal-right-c" r="5"></circle>
+            </g>
+          </svg>
+
+          <div class="scene-label label-before">BEFORE</div>
+          <div class="scene-label label-after">WITH AVANI ONE™</div>
+
+          <div class="hub hub-left">
+            <span class="hub-kicker">Demand Team</span>
+            <strong>Fragmented</strong>
+            <small>Execution</small>
           </div>
-        </div>
-        <div class="engine-visual" aria-label="Animated Avani ONE demand engine">
-          <div class="engine-ring ring-a"></div><div class="engine-ring ring-b"></div>
-          <div class="engine-core"><strong>Avani</strong><span>ONE™</span></div>
-          <div class="signal-dot"></div>
-          <div class="stage-card active" data-card="0"><span>INSIGHT</span><strong>Strategy aligned</strong><small>Blueprint · Align · Audit · Discover · Calibrate</small></div>
-          <div class="stage-card" data-card="1"><span>ACQUIRE</span><strong>Qualified buyers generated</strong><small>Core · Duo · Qualify · Qualify+ · Intent · Precision</small></div>
-          <div class="stage-card" data-card="2"><span>INTELLIGENCE</span><strong>Signals become priorities</strong><small>Intent SuperScore™ · Enrich · Intelligence</small></div>
-          <div class="stage-card" data-card="3"><span>ENGAGE</span><strong>Buyer intent deepens</strong><small>Engage · Experience · ABX</small></div>
-          <div class="stage-card" data-card="4"><span>AMPLIFY</span><strong>Market presence expands</strong><small>Amplify · Sponsor · Partner · Influence</small></div>
-          <div class="stage-card" data-card="5"><span>OPTIMIZE</span><strong>Execution improves continuously</strong><small>Connected solutions · orchestration · performance</small></div>
+
+          <div class="hub hub-center">
+            <div class="hub-logo-wrap"><img src="assets/avani-media-logo.png" alt="Avani Media"></div>
+            <strong>Avani ONE™</strong>
+            <small>Orchestrate. Refine. Optimize.</small>
+          </div>
+
+          <div class="hub hub-right">
+            <span class="hub-kicker">Demand Team</span>
+            <strong>Connected</strong>
+            <small>Growth Engine</small>
+          </div>
+
+          <article class="flow-card pain pc-1"><span class="flow-icon">✉</span><strong>Overflowing Inbox</strong><small>Too many disconnected communications</small></article>
+          <article class="flow-card pain pc-2"><span class="flow-icon">▦</span><strong>Significant Vendor Management</strong><small>Time lost coordinating providers</small></article>
+          <article class="flow-card pain pc-3"><span class="flow-icon">▥</span><strong>Multiple Reporting Streams</strong><small>No consolidated view</small></article>
+          <article class="flow-card pain pc-4"><span class="flow-icon">◎</span><strong>Overlapping Audiences</strong><small>Duplication and waste</small></article>
+          <article class="flow-card pain pc-5"><span class="flow-icon">⌘</span><strong>Multiple Points of Contact</strong><small>Fragmented ownership</small></article>
+          <article class="flow-card pain pc-6"><span class="flow-icon">◇</span><strong>Fragmented Investment</strong><small>Budget spread across vendors</small></article>
+          <article class="flow-card pain pc-7"><span class="flow-icon">⚙</span><strong>Disconnected Optimization</strong><small>Programs improve in isolation</small></article>
+          <article class="flow-card pain pc-8"><span class="flow-icon">↯</span><strong>Multiple Lead Sources</strong><small>Inconsistent delivery and quality</small></article>
+
+          <article class="flow-card win wc-1"><span class="flow-icon">✓</span><strong>One Partner</strong><small>One accountable operating layer</small></article>
+          <article class="flow-card win wc-2"><span class="flow-icon">◎</span><strong>One Strategy</strong><small>Aligned to the full opportunity</small></article>
+          <article class="flow-card win wc-3"><span class="flow-icon">▥</span><strong>Unified Reporting</strong><small>One connected performance view</small></article>
+          <article class="flow-card win wc-4"><span class="flow-icon">⌘</span><strong>Simplified Workflows</strong><small>Less operational complexity</small></article>
+          <article class="flow-card win wc-5"><span class="flow-icon">$</span><strong>More Efficient Investment</strong><small>Higher-quality delivery from an optimized mix</small></article>
+
+          <div class="scene-message">
+            <strong>One operating layer.</strong>
+            <span>Across partners, programs, data, and delivery.</span>
+          </div>
+
+          <div class="story-progress" aria-hidden="true"><span></span></div>
         </div>
       </div>
     </section>
 
-    <section id="portfolio" class="portfolio section-light">
-      <div class="section-heading reveal">
+    <section id="portfolio" class="portfolio section-dark">
+      <div class="portfolio-heading reveal">
         <p class="eyebrow">One Portfolio. Every Stage.</p>
         <h2>Modular programs. One coordinated system.</h2>
-        <p>Start with the capability you need now, then connect the portfolio as your demand engine matures.</p>
+        <p>From strategy through execution, Avani ONE™ connects the programs, solutions, and expertise required to turn demand generation into measurable outcomes.</p>
       </div>
-      <div class="family-grid">
-        <article class="family reveal"><span>01</span><h3>INSIGHT</h3><p>Uncover opportunities, align audiences, and prepare for growth before execution.</p><div>Blueprint · Align · Audit · Discover · Calibrate</div></article>
-        <article class="family reveal"><span>02</span><h3>ACQUIRE</h3><p>Generate qualified buyers and create new pipeline opportunities at scale.</p><div>Core · Duo · Qualify · Qualify+ · Intent · Precision</div></article>
-        <article class="family reveal"><span>03</span><h3>INTELLIGENCE</h3><p>Transform acquired leads into actionable, prioritized sales opportunities.</p><div>Intent SuperScore™ · Enrich · Intelligence</div></article>
-        <article class="family reveal"><span>04</span><h3>ENGAGE</h3><p>Deepen buyer engagement and nurture intent through meaningful experiences.</p><div>Engage · Experience · ABX</div></article>
-        <article class="family reveal"><span>05</span><h3>AMPLIFY</h3><p>Extend reach, reinforce messaging, and increase market visibility.</p><div>Amplify · Sponsor · Partner · Influence</div></article>
-        <article class="family reveal"><span>06</span><h3>OPTIMIZE</h3><p>Connect solutions, simplify execution, and continuously improve performance.</p><div>Orchestration · reporting · optimization</div></article>
+
+      <div class="family-track">
+        <article class="family-card reveal">
+          <span class="family-number">01</span><h3>INSIGHT</h3>
+          <p>Uncover opportunities, align audiences, and prepare organizations for growth before execution begins.</p>
+          <div class="product-list">Blueprint · Align · Audit · Discover · Calibrate</div>
+        </article>
+        <article class="family-card reveal">
+          <span class="family-number">02</span><h3>ACQUIRE</h3>
+          <p>Generate qualified buyers and create new pipeline opportunities at scale.</p>
+          <div class="product-list">Core · Duo · Qualify · Qualify+ · Intent · Precision</div>
+        </article>
+        <article class="family-card reveal">
+          <span class="family-number">03</span><h3>INTELLIGENCE</h3>
+          <p>Transform acquired leads into actionable, prioritized sales opportunities.</p>
+          <div class="product-list">Intent SuperScore™ · Enrich · Intelligence</div>
+        </article>
+        <article class="family-card reveal">
+          <span class="family-number">04</span><h3>ENGAGE</h3>
+          <p>Deepen buyer engagement and nurture intent through meaningful experiences.</p>
+          <div class="product-list">Engage · Experience · ABX</div>
+        </article>
+        <article class="family-card reveal">
+          <span class="family-number">05</span><h3>AMPLIFY</h3>
+          <p>Extend reach, reinforce messaging, and increase market visibility.</p>
+          <div class="product-list">Amplify · Sponsor · Partner · Influence</div>
+        </article>
+        <article class="family-card reveal">
+          <span class="family-number">06</span><h3>CONVERT</h3>
+          <p>Create sales opportunities and accelerate pipeline progression.</p>
+          <div class="product-list">Ready · Connect</div>
+        </article>
       </div>
     </section>
 
-    <section class="outcome section-dark">
+    <section id="outcome" class="outcome section-light">
       <div class="outcome-copy reveal">
         <p class="eyebrow">The Outcome</p>
-        <h2>The right buyers.<br>The right message.<br><span>The right moment.</span></h2>
+        <h2>The right buyers.<br>The right message.<br><span>Through the right channels.</span></h2>
+        <p>One connected strategy creates the infrastructure for consistent, measurable pipeline growth.</p>
       </div>
-      <div class="outcome-dashboard reveal">
-        <div class="metric"><span>01</span><strong>Aligned Strategy</strong><small>One connected plan across audiences, programs, and partners.</small></div>
-        <div class="metric"><span>02</span><strong>Stronger Signals</strong><small>Engagement and intelligence turn activity into action.</small></div>
-        <div class="metric"><span>03</span><strong>Measurable Growth</strong><small>Continuous orchestration improves the path to pipeline.</small></div>
+
+      <div class="outcome-panel reveal">
+        <div class="outcome-row"><span>01</span><div><strong>One Partner</strong><small>Less vendor sprawl and clearer accountability.</small></div></div>
+        <div class="outcome-row"><span>02</span><div><strong>One Aligned Strategy</strong><small>Programs designed around the full opportunity.</small></div></div>
+        <div class="outcome-row"><span>03</span><div><strong>End-to-End Orchestration</strong><small>Connected execution across every stage.</small></div></div>
+        <div class="outcome-row"><span>04</span><div><strong>Dynamic Scale</strong><small>The right providers and programs as needs evolve.</small></div></div>
       </div>
     </section>
   </main>
@@ -125,6 +214,10 @@
     <div><span class="brand-name">Avani ONE™</span><p>One Partner. One Strategy. End-to-End Orchestration.</p></div>
     <img src="assets/avani-media-logo.png" alt="Avani Media">
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/MotionPathPlugin.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
